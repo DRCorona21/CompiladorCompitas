@@ -23,7 +23,7 @@ assemby.
 ## Gramáticas del compilador
 
 Las siguientes son las gramáticas definidas en el compilador.
-
+Gramaticas especificas aceptadas por el compilador
 Gramática de asignación:
 ```txt
 S -> int V | float V ;
@@ -46,9 +46,9 @@ C  -> CR OL C | CR
 CR -> id OR id | id OR num | num OR id
 OL -> && | || 
 OR -> < | > | <= | >= | == | !=
-```
-Gramaticas especificas aceptadas por el compilador
 
+```
+```txt
 Inicio
 |
 V
@@ -82,3 +82,4 @@ Compilar archivo generado
 Imprimir mensajes y esperar interacción del usuario
 |
 Fin
+```
